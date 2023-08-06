@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #ecf0f3;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c0c3c5;
+    padding: 15px;
+        
+}
+
+.nav button{
+  
+    font-size: large;
+    border: 1px;
+    padding: 9px 8px;
+    border-radius: 6px;
+    background-color: #adafb1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+
+.maps{
+    display: grid;
+    background-color: #9fb2b369;
+    justify-content: center;
+    gap: 8vh;
+    
+    text-align: center;
+    margin-top: 10vh;
+    padding: 10px;
+grid-template-columns: auto auto auto auto;
+}
+
+
+ 
+.mapp .loader{
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+    line-height: 2vh;
+    margin-bottom: 10px;
+
+}
+
+.map img {
+    margin-top: 10px;
+    max-width: 100%;
+    align-content: center;
+    height: auto;
+    border-radius: 5px; /* Add rounded corners */
+    border: 4px solid #9c9d9e; /* Add border */
+    box-shadow: 0 12px 1px rgba(17, 10, 10, 0.1); /* Add box shadow */
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+  
+   
+    cursor: pointer;
+  }
+ 
+  .map {
+    width: 100%;
+  }
+
+  .map img:hover {
+    transform: scale(1.05);
+  }
+
+.map h3 {
+   font-size: 23px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 7px;
+   
+
+}
+.map p{
+    
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
